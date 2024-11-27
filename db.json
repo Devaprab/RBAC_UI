@@ -1,0 +1,91 @@
+{
+  "users": [
+    {
+      "name": "Joe Doe",
+      "email": "john@example.com",
+      "role": "Admin",
+      "status": "inactive",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "Hima",
+      "email": "hima@gmail.com",
+      "password": "securepassword",
+      "role": "Admin",
+      "status": "Active"
+    },
+    {
+      "id": "ba51",
+      "name": "sharan",
+      "email": "sharan@gmail.com",
+      "password": "sharanpassword",
+      "role": "Admin",
+      "status": "Active"
+    },
+    {
+      "id": "d690",
+      "name": "Deepak",
+      "email": "deepak@gmail.com",
+      "password": "editorpassword",
+      "role": "Editor",
+      "status": "Active"
+    },
+    {
+      "id": "f639",
+      "name": "Deepa",
+      "email": "deepa@gmail.com",
+      "password": "viewerpassword",
+      "role": "Viewer",
+      "status": "Inactive"
+    },
+    {
+      "id": "8bc2",
+      "name": "Reena",
+      "email": "reena@gmail.com",
+      "password": "reena123",
+      "role": "Viewer",
+      "status": "Active"
+    }
+  ],
+  "roles": [
+    {
+      "id": "1",
+      "name": "Admin",
+      "permissions": [
+        "read",
+        "write",
+        "delete"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Editor",
+      "permissions": [
+        "read",
+        "write"
+      ]
+    },
+    {
+      "id": "9a8d",
+      "name": "Viewer",
+      "permissions": [
+        "read"
+      ]
+    }
+  ],
+  "permissions": [
+    {
+      "id": "1",
+      "action": "read"
+    },
+    {
+      "id": "2",
+      "action": "write"
+    },
+    {
+      "action": "delete",
+      "id": "7670"
+    }
+  ]
+}
